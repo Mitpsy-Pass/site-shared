@@ -88,7 +88,9 @@ module DartSite
     end
 
     def _log_puts(s)
+      unified_diff_text("Yes")
       puts(s)
+      unified_diff_text("No")
     end
 
   end
